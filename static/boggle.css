@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+}
+body {
+    background: radial-gradient(circle, #c0c0c0, #696969);
+    align-content: center;
+    width: 100%;
+}
+header {
+    background-color: #e6ffe6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.board {
+    border: solid 2px black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.msg {
+    padding: 1em;
+}
+
+.msg.ok {
+    color: white;
+    background-color: rgba(221, 255, 221, 0.5);
+}
+
+.msg.error {
+    color: white;
+    background-color: rgba(196, 30, 58, 0.5);
+}
